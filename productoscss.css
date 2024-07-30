@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header{
+        height: 120px;
+        background: linear-gradient(to right, #333f4b, blue, #03080e);
+        padding: 0 20px;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    
+    .logohard {
+        width: 10vh;
+        height: 10vh;
+    }
+    .titulo {
+        margin-left:5vh;
+    }
+    
+    .span {
+        color: red;
+    
+    }
+    .buscador{
+        margin-left: 45vh;
+        width: 50vh;
+        height: 4.5vh;
+        border-radius: 8px;
+        border-color:red;
+        border-width:3px;
+        font-size: large;
+    }
+
+    .divwrap{
+        display: flex;
+        background-color: black;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .wrapfont {
+        color: red;
+        margin-left: 3vh;
+        font-size: 25px;
+    }
+
+    .sidebar {
+        position: fixed;
+        display: flex;
+        top: 148px;
+        left: 0px;
+        width: 250px;
+        height: 100%;
+        background: linear-gradient(to top, #333f4b, blue, #03080e);
+    }
+    .sidebar .btn-toggle {
+        position: absolute;
+        top: 10px;
+        width: 200px;;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .sidebar .btn-toggle .links {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .sidebar .btn-toggle .links a{
+        font-size: larger;
+        margin-left: 10px;
+        padding: 15px 25px;
+        color: red;
+        border-bottom: 2px solid #1b1b1b ;
+    }
+
+    .sidebar .btn-toggle .links a.active,
+    .sidebar .btn-toggle .links a:hover {
+        background: black;
+        color:blue;
+    }
+
+
+
+    .fathercontainer {
+        width: 1400px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+        margin-top: 3vh;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        max-height: 800px;
+    }
+
+    .container .card {
+    width: 1250px;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 5vh;
+    text-align: center;
+    transition: all 0.25s;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.692);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5vh;
+    align-content: center;
+    }
+    
+    .container .card:hover {
+        transform:translateX(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0,2);
+    }
+    
+    .container .card img {
+        width: 330px;
+        height: 220px;
+    }
+    .container .card h4 {
+        font-weight: 550;
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    .container .card p {
+        padding: 0 1.2rem;
+        font-size: 28px;
+        font-weight: 300;
+        padding-bottom: 25px;
+    }
+    .button {
+        text-decoration: none;
+        background-color: red;
+        border: 1px solid #04407c7a;
+        padding: 10px 20px;
+        align-self: center;
+        transition: all 0.4s;
+        border-radius: 4px;
+        font-size: 20px;
+        margin-right: 2vh;
+    }
+
+
+
+
+    .piedepagina {
+        width: 100%;
+        background-color: rgba(0, 0, 158, 0.822) ;
+        max-height: 200px;
+    }
+    
+    .piedepagina .g1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+    }
+    
+    .piedepagina .g1 .box {
+        padding-top: 10px;
+    }
+    
+    .piedepagina .g1 .box .logo2 {
+        width: 125px;
+        height: 100px;
+        display: flex;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+    
+    .piedepagina .g1 .box .redsocial a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 30px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #0d0d0d ;
+        text-align: center;
+        padding-top: 14px;
+    }
+    .Emi {
+        color: black;
+        font-size: larger;
+    }
+
+    .hide {
+        display: none;
+    }
